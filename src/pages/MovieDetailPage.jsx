@@ -73,13 +73,13 @@ function MovieDetailPage() {
                   <Link className="my-active" to="/">
                     <i className="fas fa-video light-grey"></i> Movies
                   </Link>
-                  <Link to="/">
+                  <Link className='sd-none' to="/">
                     <i className="fas fa-caret-square-right"></i> TV Series
                   </Link>
-                  <Link to="/">
+                  <Link className='sd-none' to="/">
                     <i className="fab fa-hive"></i> Upcoming
                   </Link>
-                  <div className="side-content">
+                  <div className="side-content sd-none">
                     <h6>
                       Lorem ipsum dolor elit. consectetur adipisicing elit.
                       Lorem ipsum dolor sit amet consectetur{" "}

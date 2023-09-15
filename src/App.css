@@ -526,6 +526,36 @@ body {
     width: 100%;
     height: 100px;
   }
+  .side-nav {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+    flex-flow: row;
+    padding: none;
+    justify-content: space-around;
+  }
+  .side-nav a {
+    padding: 5px 10px;
+    margin: none !important;
+  }
+  .side-nav a:hover {
+    margin: none;
+    padding: 5px 10px;
+    border-right: none;
+    border-bottom: 2px solid #9e0d32;
+    animation: all .1s ease-in-out;
+  }
+  .side-home {
+    margin: none;
+    padding: none;
+    font-size: .9rem !important;
+    display: none;
+  }
+
+  .my-active {
+    border-right: none;
+    border-bottom: 2px solid #9e0d32;
+  }
 }
 .iframe-size {
   width: 560px;

@@ -11,9 +11,7 @@ function Card({ movie, loading }) {
     setNotification((prevNotification) => {
       const newNotification = !prevNotification;
       if (newNotification) {
-        alert("Added to favorites");
       } else {
-        alert("Removed from favorites");
       }
       return newNotification;
     });
@@ -38,7 +36,13 @@ function Card({ movie, loading }) {
             width={"100%"}
           />
         ) : (
-          <Loader />
+          <img
+            data-testid="movie-poster"
+            id="movie poster"
+            src={imageLoad}
+            alt={movie.original_title}
+            width={"100%"}
+          />
         )}
         <div className="card-text">
           <span
