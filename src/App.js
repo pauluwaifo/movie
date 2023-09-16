@@ -21,7 +21,7 @@ function App() {
           background={{ background: "#080e1d" }}
         />
       )}
-      {locate.pathname !== "/404" && !locate.pathname.startsWith("/movie/") && (
+      {locate.pathname !== "/404" && !locate.pathname.startsWith("/movies/") && (
         <Header searchText={searchText} setSearchText={setSearchText} />
       )}
 
