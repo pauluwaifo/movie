@@ -27,7 +27,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/movie/:id" element={<MovieDetailPage />} />
+        <Route path="/movies/:id" element={<MovieDetailPage />} />
         <Route
           path="/search/:param"
           element={<SearchedMoviePage searchText={searchText} />}
