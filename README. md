@@ -1,1 +1,5 @@
 this is a mobie app that fetches movie api from tmdb and displays it for users to see and interact
+the hompage contains a slider that displays latest movies
+and a card component that displays the tmdb top rated movie
+with their poster, name and date. etc
+it also has a movie details page that provides a decent amount of information about a particular movie
