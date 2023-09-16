@@ -4,7 +4,7 @@ import Loader from "./Loader";
 import { Link } from "react-router-dom";
 
 function Card({ movie, loading }) {
-  const movieUrl = `/movie/${movie.id}`;
+  const movieUrl = `/movies/${movie.id}`;
   const imgSrc = `https://image.tmdb.org/t/p/original${movie.poster_path}`;
   const [notification, setNotification] = useState(false);
   const addToFavorite = () => {
