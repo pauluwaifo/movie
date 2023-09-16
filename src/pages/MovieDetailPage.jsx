@@ -123,7 +123,7 @@ function MovieDetailPage() {
                           {utcDateStr}
                         </li>
                         <li data-testid="movie-runtime" id="runtime">
-                          {movieDetails.runtime}m
+                          {movieDetails.runtime}
                         </li>
                         {movieDetails.genres.map((genre, i) => {
                           return (
